@@ -1,0 +1,33 @@
+.video{
+    height: 65vh;
+}
+
+#miVideo{
+    width: 100%;
+    height: 100%;
+}
+#reproducir{
+    width: 10rem;
+    height: 10rem;
+    border: 10px solid green;
+    border-radius: 50%;
+    position: absolute;
+    animation: scala 1s infinite;
+    background-color: transparent;
+}
+@keyframes scala{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+        border: 10px solid rgb(7, 176, 21);
+    }
+}
+
+.logo{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    background-color: transparent;
+}
